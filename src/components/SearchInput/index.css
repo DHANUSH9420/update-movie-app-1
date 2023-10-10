@@ -1,0 +1,32 @@
+.no-video-container {
+  background-color: transparent;
+  height: 80%;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-video-img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.no-video-text {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #ffff;
+  text-align: center;
+}
+
+.search-video-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 85vh;
+  overflow-y: auto;
+  width: 100vw;
+}

@@ -1,0 +1,46 @@
+.not-found-container {
+  background: linear-gradient(
+    180deg,
+    #4368eb -37.08%,
+    rgba(164, 184, 255, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.not-found-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.not-found-heading {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.not-found-para {
+  color: #fff;
+  text-align: center;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.not-found-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  color: #171f46;
+  background-color: #ffff;
+}

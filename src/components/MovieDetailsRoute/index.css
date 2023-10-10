@@ -1,0 +1,158 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #131313;
+}
+.failure-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 6px;
+}
+
+.failure-para {
+  color: #fff;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.failure-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  color: General/Dark blue;
+  background-color: #fff;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.movie-container {
+  width: 100vw;
+  height: 100%;
+  background-color: #181818;
+}
+.movie-bg-container {
+  width: 100vw;
+  height: 501px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: lightgray 50% / cover no-repeat;
+}
+.movie-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 250px;
+}
+
+.movie-heading {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.movie-row-container {
+  display: flex;
+  width: 219px;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding-left: 20px;
+}
+.movie-hour {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.movie-U-a {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.movie-year {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.movie-description {
+  width: 600px;
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+}
+.button {
+  background-color: #ffffff;
+  font-family: Roboto;
+  padding: 10px;
+  color: #181818;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 7px;
+}
+.blur-bg {
+  width: 100vw;
+  height: 270px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.55) 38.26%,
+    #181818 92.82%,
+    #181818 98.68%,
+    #181818 108.61%
+  );
+  padding-left: 30px;
+}
+@media screen and (max-width: 600px) {
+  .movie-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .movie-description {
+    font-size: 12px;
+    width: 350px;
+    margin-left: 10px;
+  }
+}
